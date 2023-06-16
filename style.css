@@ -113,12 +113,12 @@ main p {
   margin-bottom: 48px;;
 }
 .firstcharacter {
-  color: #903;
+  color: #990f02;
   float: left;
   font-family: Georgia;
-  font-size: 75px;
+  font-size: 90px;
   line-height: 60px;
-  padding: 5px 20px;
+  padding: 5px 15px;
   
 }
 
