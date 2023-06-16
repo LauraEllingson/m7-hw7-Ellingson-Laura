@@ -25,7 +25,8 @@ h1 {
   font-size: 2.5rem;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
 }
 
@@ -45,7 +46,8 @@ header a {
   color: var(--off-white);
 }
 
-main > article, nav{
+main>article,
+nav {
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -55,22 +57,23 @@ nav {
   display: flex;
 }
 
-nav > a:not(:first-of-type){
+nav>a:not(:first-of-type) {
   margin-left: 24px;
 }
 
-nav > a.logo {
+nav>a.logo {
   margin-right: auto;
   text-transform: uppercase;
 }
 
-main > section, main > article {
+main>section,
+main>article {
   margin-bottom: 96px;
   box-shadow: 4px 4px 10px var(--gray);
   background-color: var(--white);
 }
 
-main > section.hero {
+main>section.hero {
   height: 300px;
   background-image: url(https://picsum.photos/1920/1000);
   background-size: cover;
@@ -87,16 +90,16 @@ main > section.hero {
   /* make this banner stick to the top! */
 }
 
-section.hero > .call-to-action {
+section.hero>.call-to-action {
   font-size: 2rem;
   font-weight: 700;
   text-shadow: var(--white) 0px 0px 10px, var(--white) 0px 0px 20px, var(--gray) 2px 2px 2px;
   padding: 0 48px;
   margin: 0;
- 
+
 }
 
-section.hero > button {
+section.hero>button {
   background-color: var(--secondary-color);
   border: none;
   padding: 12px 24px;
@@ -110,8 +113,10 @@ main article {
 
 main p {
   line-height: 1.75;
-  margin-bottom: 48px;;
+  margin-bottom: 48px;
+  ;
 }
+
 .firstcharacter {
   color: #990f02;
   float: left;
@@ -119,10 +124,10 @@ main p {
   font-size: 90px;
   line-height: 60px;
   padding: 5px 15px;
-  
+
 }
 
-main > article img {
+main>article img {
   float: left;
   width: 300px;
   height: auto;
@@ -152,9 +157,10 @@ span.tooltip:hover,
 span.tooltip:focus {
   text-decoration: underline;
 }
+
 /* show tooltip on hover/focus */
-span.tooltip:hover > span,
-span.tooltip:focus > span {
+span.tooltip:hover>span,
+span.tooltip:focus>span {
   display: inline;
   visibility: visible;
 }
@@ -165,13 +171,13 @@ span.tooltip span {
   visibility: hidden;
   width: 300px;
   font-size: 12px;
-  
+
   padding: 10px 10px;
   position: absolute;
   color: #FFFFFF;
-  background-color:#002800;
+  background-color: #002800;
   text-align: center;
-  
+
   z-index: 1;
   border-radius: 5px;
   bottom: 100%;
